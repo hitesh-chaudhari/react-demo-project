@@ -1,10 +1,14 @@
-function register(data) {
+import { STRING_CONSTANTS } from '../../../utils/constant';
+
+const register = (data) => {
   return (dispatch) => {
     dispatch({
-      type: 'FETCH_USER',
+      type: STRING_CONSTANTS.FETCH_USER,
       payload: data,
     });
   };
-}
+};
+
+
 
 export { register };

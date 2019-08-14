@@ -6,4 +6,4 @@ const Footer = () =>
     Footer elements
   </FooterContainer>;
 
-export { Footer }
+export { Footer };

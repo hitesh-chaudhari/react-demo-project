@@ -1,6 +1,6 @@
-import { injectGlobal } from 'styled-components';
+import { createGlobalStyle } from 'styled-components';
 
-injectGlobal`
+export const GlobalStyles = createGlobalStyle`
   html {
     box-sizing: border-box;
     -webkit-text-size-adjust: 100%;
